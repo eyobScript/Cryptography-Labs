@@ -1,8 +1,6 @@
 import time
 import random
 
-KEYSIZE = 16  # Define the key size (16 bytes = 128 bits)
-
 # Case 1: Using a seed for the random number generator
 print("-----------------------------")
 print("Case 1: Using a seed (time-based):")
