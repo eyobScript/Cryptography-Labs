@@ -9,6 +9,7 @@ print("-----------------------------")
 KEYSIZE = 16
 
 
+
 def generate_key_from_timestamp(timestamp):
     # Use the timestamp as the seed for random number generation
     random.seed(timestamp)
