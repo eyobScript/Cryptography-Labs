@@ -4,7 +4,9 @@ import random
 KEYSIZE = 16  # Define the key size (16 bytes = 128 bits)
 
 # Case 1: Using a seed for the random number generator
+print("-----------------------------")
 print("Case 1: Using a seed (time-based):")
+print("-----------------------------")
 seed = int(time.time())  # Get the current time in seconds since the Epoch
 print(f"Seed: {seed}")
 random.seed(seed)  # Seed the random number generator
@@ -15,7 +17,9 @@ for i in range(KEYSIZE):
 print("\n")
 
 # Case 2: Without using a seed for the random number generator
+print("-----------------------------")
 print("Case 2: Without using a seed:")
+print("-----------------------------")
 random.seed(None)  # This sets the seed to a default state
 key = bytearray()
 for i in range(KEYSIZE):
