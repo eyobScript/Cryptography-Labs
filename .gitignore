@@ -2,3 +2,4 @@
 myenv
 venv
 .idea
+.gitignore
