@@ -3,6 +3,8 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 import binascii
 
+
+
 # Known data
 plaintext = bytes.fromhex('255044462d312e350a25d0d4c5d80a34')  # Known plaintext
 ciphertext = bytes.fromhex('d06bf9d0dab8e8ef880660d2af65aa82')  # Known ciphertext
